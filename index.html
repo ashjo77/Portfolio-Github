@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr-en">
+<head>
+  <title>Accueil</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Présentation</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="apprenti.html">Apprenti</a></li>
+              <li><a class="dropdown-item" href="entreprise.html">Entreprise</a></li>
+            </ul>
+        </li>
+        <!--debut-->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Épreuve E4</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="tableau.html">Tableau de Synthèse</a></li>
+              <li><a class="dropdown-item" href="mission_formation.html">Missions réalisées en Formation</a></li>
+              <li><a class="dropdown-item" href="mission_entreprise.html">Missions réalisées en Entreprise</a></li>
+          </ul>
+        </li>
+
+      <!--fin debut-->
+        <!--debut epreuves-->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Épreuve E5</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Situations</a></li>
+            <li><a class="dropdown-item" href="#">Productions</a></li>
+          </ul>
+        </li>
+
+      <!--fin debut epreuves-->
+        <li class="nav-item">
+          <a class="nav-link" href="veille.html">Veille Technologie</a>
+        </li> 
+      </ul>
+    </div>
+</nav>
+
+<!---section-->
+
+<section class="apprenti_sio_1" id="accueil1">
+  <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/pexels_carousel.jpg" alt="cyberdéfense" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="image/pexels_carousel1.jpg" alt="réseau" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="image/pexels_carousel2.jpg" alt="Dev" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+  
+  <br><br><br>
+  <div>
+      <div><h2 style="text-align:center">À propos de moi</h2></div><br><br>
+      <h3 class="apprenti_sio_2"><button type="button" data-bs-toggle="collapse" data-bs-target="#demo">Qui Suis-je ?</button></h3>
+      <div id="demo" class="apprenti_sio_3">
+          <p style="text-align: center;">
+              Je m'appelle Jonathan Bikambidi, j'ai 22 ans et je suis actuellement étudiant en deuxième année d'alternance de BTS SIO Option SISR au sein du CFA Montsouris à Paris 14.<br>
+              Je suis très passionné par l'administration systèmes réseaux et cybersécurité en parallèle je fais du développement web et de la programmation.<br>
+              À l'issue de mon BTS, je souhaiterai intégrer une école d'ingénieur parcours cyberdéfense ou réseau et sécurité.<br> 
+          </p>
+      </div>
+  </div><br>
+  <!--button cv-->
+
+  <div class="container mt-3" id="cv">
+      <h2>Curriculum vitae</h2><br>
+      <a href="doc/Cv_alternance.pdf" target="_blank" class="btn btn-success">Mon CV</a>
+  </div><br><br>
+
+  <div class="container mt-3" id="cv">
+      <h2>Certificat ANSSI</h2><br>
+      <a href="doc/certificat_anssi.pdf" target="_blank" class="btn btn-success">Certificat ANSSI</a>
+  </div>
+
+  <!--fin buton-->
+</section><br><br>
+
+<!---fin apprenti section-->
+<section class="apprenti_sio_5" id="apprenti1">
+  <div>
+      <h1 class="card-title" style="text-align: center;">Mes compétences</h1>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+      <div class="col-sm-6">
+          <div class="card">
+          <div class="card-body">
+              <h3 class="card-title">Administration systèmes et réseaux</h3><br>
+              <ul>
+                  <li>Architecture réseau</li>
+              </ul>
+              <ul>
+                  <li>Cybersécurité</li>
+              </ul>
+              <ul>
+                  <li>Gestion du parc informatique</li>
+              </ul>
+              <ul>
+                  <li>Configuration routeur et switch TP LINK</li>
+              </ul>
+              <ul>
+                  <li>Assistance aux utilisateurs</li>
+              </ul>
+              <ul>
+                  <li>Bases de données</li>
+              </ul>
+          </div>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="card">
+          <div class="card-body">
+              <h3 class="card-title">Langages Informatique</h3><br>
+              <ul>
+                  <li>C#</li>
+              </ul>
+              <ul>
+                  <li>HTML</li>
+              </ul>
+              <ul>
+                  <li>CSS</li>
+              </ul>
+              <ul>
+                  <li>Python</li>
+              </ul>
+              <ul>
+                  <li>Powershell</li>
+              </ul>
+              
+          </div>
+          </div>
+      </div>
+  </div><br><br>
+</section><br><br><br><br>
+
+<!-- Footer -->
+
+<footer class="text-center text-lg-start bg-white text-muted">
+  <hr>
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">CFA CERFAL Campus Montsouris</h6>
+          <p>
+            Apprenant / BTS SIO au CFA Cerfal/Campus Montsouris <br> 2 rue Lacaze <br> 75014, Paris
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i>Paris Alexandre Dumas</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            ashjonathan03@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i>06 95 60 97 86</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="apprenti.html">Jonathan Bikambidi</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- Footer -->
+
+</body>
+</html>
+
+</body>
+</html>
